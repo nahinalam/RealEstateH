@@ -12,6 +12,11 @@
     <tomcat.version>8.0.28</tomcat.version>
   </properties>
   <dependencies>
+  	<dependency>
+	  <groupId>org.postgresql</groupId>
+	  <artifactId>postgresql</artifactId>
+	  <version>9.3.14</version>
+	</dependency>
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
         <artifactId>tomcat-embed-core</artifactId>
